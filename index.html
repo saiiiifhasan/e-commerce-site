@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.0.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./favicon.jpg" type="image/x-icon">
+    
+</head>
+<body>
+    <main class="container mx-auto font-poppins">
+<!-- nav bar start -->
+        <section class="sticky top-0 z-10 ">
+        <div class="navbar bg-base-100">
+            <div class="flex-1">
+              <a class="btn btn-ghost normal-case text-xl">Saif Hasan</a>
+            </div>
+            <div class="lg:flex-none flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a> <i class="fa-regular fa-user"></i> Sign in</a></li>
+                <li><a><i class="fa-solid fa-cart-plus"></i> Cart</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+<!-- nav bar end -->
+<!-- menu bar start -->
+        <section>
+        <ul class="menu menu-horizontal rounded-box bg-gray-200 container mx-auto flex justify-between">
+            <div class="bg-amber-400 rounded-md text-white font-bold">
+            <li>
+                <a>Browse Categories <i class="fa-solid fa-arrow-down"></i></a>
+            </li>
+            </div>
+           
+            <div class="text-black font-bold flex">
+                <li>
+                    <a><p>Home <i class="fa-solid fa-arrow-down"></i></p></a>
+                </li>
+
+                <li>
+                    <a><p>Catalog <i class="fa-solid fa-arrow-down"></i></p></a>
+                </li>
+
+                <li>
+                    <a><p>Blog</p></a>
+                </li>
+
+                <li>
+                    <a> <p>Pages <i class="fa-solid fa-arrow-down"></i></p></a>
+                </li>
+            </div>
+            <div>
+                <li>
+                    <a> <p class="font-bold text-blue-900">30 Days Free Return</p></a>
+                </li>
+            </div>
+        </ul>
+        </section>
+<!-- menu bar end -->
+<!-- big camera ad part start -->
+        <section class="lg:flex lg:flex-row-reverse justify-evenly items-center relative">
+          <div class="lg:flex">
+              <img src="./Camera.png" alt="">
+          </div>
+            <div>
+                <p class="text-4xl font-bold">Canon <br>
+                camera</p>
+                <div class="mt-8">
+                    <button type="button" class="bg-amber-400 p-2.5 px-4 rounded-md text-white font-bold">Shop Now</button>
+                    <button class="border border-slate-400 rounded-md  p-2 px-4 font-bold">View more</button>
+                </div>
+                <div class="text-center mt-10">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
+                </div>
+            </div>
+        </section>
+    
+<!-- big camrea ad part end -->
+<!-- items part start-->
+<section class="lg:flex justify-evenly mb-12">
+
+<div class="card card-side bg-base-100 shadow-2xl border-2 border-gray-400">
+    <figure><img src="./speaker.png" alt="Speaker"/></figure>
+    <div class="card-body">
+      <h2 class="card-title">Speaker</h2>
+      <p>(6 Items)</p>
+    </div>
+</div>
+ 
+
+<div class="card card-side bg-base-100 shadow-2xl border-2 border-gray-400">
+        <figure><img src="./laptop and desktops.png" alt="Laptop an desktops"/></figure>
+        <div class="card-body">
+          <h2 class="card-title">Laptop & Desktop</h2>
+          <p>(6 Items)</p>
+        </div>
+      </div>
+</div>  
+
+<div class="card card-side bg-base-100 shadow-2xl border-2 border-gray-400">
+            <figure><img src="./camera-2.png" alt="Camera"/></figure>
+            <div class="card-body">
+              <h2 class="card-title">DSLR Camera</h2>
+              <p>(6 Items)</p>
+            </div>
+</div>
+</section>  
+<!-- items part end -->
+<!-- heading start -->
+    <section class="lg:flex justify-evenly">
+        <div>
+            <p class="text-blue-900 text-2xl font-bold">Propular Products</p>
+        </div>
+        <div>
+            <button class="border-2 border-gray-400 rounded-full inline p-2 px-4 font-bold text-xl">Cameras</button>
+            <button class="border-2 border-gray-400 rounded-full inline p-2 px-4 font-bold text-xl">Laptops</button>
+            <button class="border-2 border-gray-400 rounded-full inline p-2 px-4 font-bold text-xl">Tablets</button>
+            <button class="border-2 border-gray-400 rounded-full inline p-2 px-4 font-bold text-xl">Mouse</button>
+        </div>
+    </section>
+<!-- heading end -->
+<!-- cart part start -->
+<section class="grid grid-cols-1 lg:grid-cols-4 gap-4 mt-8">
+    <div class="card card-compact bg-base-100 shadow-xl border-2 border-gray-400">
+        <figure><img src="./camera for cart.png" alt="Camera" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">DSLR Camera</h2>
+          <p class="font-bold text-lg">$500</p>
+          <p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </p>
+          <div class="card-actions justify-end">
+          </div>
+        </div>
+      </div>
+      <div class="card card-compact bg-base-100 shadow-xl border-2 border-gray-400">
+        <figure><img src="./headphone for cart.png" alt="Wireless Headphone" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Wireless Headphone</h2>
+          <p class="font-bold text-lg">$500</p>
+          <p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </p>
+          <div class="card-actions justify-end">
+          </div>
+        </div>
+      </div>
+      <div class="card card-compact bg-base-100 shadow-xl border-2 border-gray-400">
+        <figure><img src="./laptop for cart.png" alt="Tablet as Laptop" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Tablet as Laptop</h2>
+          <p class="font-bold text-lg">$500</p>
+          <p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </p>
+          <div class="card-actions justify-end">
+          </div>
+        </div>
+      </div>
+      <div class="card card-compact bg-base-100 shadow-xl border-2 border-gray-400">
+        <figure><img src="./play games for cart.png" alt="Play Games" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Play Games</h2>
+          <p class="font-bold text-lg">$500</p>
+          <p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </p>
+          <div class="card-actions justify-end">
+          </div>
+        </div>
+      </div>
+      <div class="card card-compact bg-base-100 shadow-xl border-2 border-gray-400">
+        <figure><img src="./camera for cart.png" alt="Camera" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">DSLR Camera</h2>
+          <p class="font-bold text-lg">$500</p>
+          <p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </p>
+          <div class="card-actions justify-end">
+          </div>
+        </div>
+      </div>
+      <div class="card card-compact bg-base-100 shadow-xl border-2 border-gray-400">
+        <figure><img src="./headphone for cart.png" alt="Wireless Headphone" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Wireless Headphone</h2>
+          <p class="font-bold text-lg">$500</p>
+          <p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </p>
+          <div class="card-actions justify-end">
+          </div>
+        </div>
+      </div>
+      <div class="card card-compact bg-base-100 shadow-xl border-2 border-gray-400">
+        <figure><img src="./laptop for cart.png" alt="Tablet as Laptop" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Tablet as Laptop</h2>
+          <p class="font-bold text-lg">$500</p>
+          <p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </p>
+          <div class="card-actions justify-end">
+          </div>
+        </div>
+      </div>
+      <div class="card card-compact bg-base-100 shadow-xl border-2 border-gray-400">
+        <figure><img src="./play games for cart.png" alt="Play Games" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Play Games</h2>
+          <p class="font-bold text-lg">$500</p>
+          <p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </p>
+          <div class="card-actions justify-end">
+          </div>
+        </div>
+      </div>
+</section>
+<p class="flex justify-center mt-6 gap-4">
+    <i class="fa-solid fa-circle"></i>
+    <i class="fa-regular fa-circle"></i>
+    <i class="fa-regular fa-circle"></i>
+  </p>
+<!-- cart part end -->
+<!-- cart part 2 start -->
+<section class="lg:flex justify-evenly py-2 px-2 mt-6 mb-4">
+<div class="border-2 border-gray-400 rounded-box p-8 mb-2 shadow-2xl">
+<div class="mt-8 lg:flex flex-none justify-evenly items-center">
+    <div>
+        <img src="./JBL DEEP BASE CART 2.png" alt="">
+    </div>
+    <div>
+        <h1 class="font-bold text-2xl">JBL bar 2.1 deep bass</h1>
+        <h1 class="font-bold text-xl">$500</h1>
+        <p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </p> <br>
+        <p class="border-2 border-gray-400 inline rounded-full text-xl text-amber-400 font-bold p-1 bg-sky-200">57</p>
+        <p class="border-2 border-gray-400 inline rounded-full text-xl text-amber-400 font-bold p-1 bg-sky-200">11</p>
+        <p class="border-2 border-gray-400 inline rounded-full text-xl text-amber-400 font-bold p-1 bg-sky-200">33</p>
+        <p class="border-2 border-gray-400 inline rounded-full text-xl text-amber-400 font-bold p-1 bg-sky-200">59</p> <br> <br> <br>
+        <p class="rounded-md px-2 font-bold py-2 border-2 border-gray-400 bg-sky-200 text-2xl inline">Add to cart <i class="fa-solid fa-cart-shopping"></i></p> <br> <br>
+        <p class="rounded-md px-2 font-bold py-2 border-2 border-gray-400 bg-sky-200 text-2xl inline">
+            <i class="fa-regular fa-eye"></i>
+        </p>
+    </div>
+</div>
+    <p class="flex justify-center gap-4 mt-8">
+        <i class="fa-solid fa-circle"></i>
+        <i class="fa-regular fa-circle"></i>
+    </p>
+</div>
+
+<div class="flex grid grid-cols-1 gap-4">
+    <div class="card card-side bg-base-100 shadow-2xl border-2 border-gray-400">
+        <figure><img src="./PLAY GAMES CART 2.png" alt="Play Games"/></figure>
+        <div class="card-body">
+          <h2 class="card-title">Play Games</h2>
+          <p class="font-bold text-lg">$500</p>
+        <p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </p>
+        </div>
+    </div>
+    <div class="card card-side bg-base-100 shadow-2xl border-2 border-gray-400">
+        <figure><img src="./PLAY GAMES CART 2.png" alt="Play Games"/></figure>
+        <div class="card-body">
+          <h2 class="card-title">Play Games</h2>
+          <p class="font-bold text-lg">$500</p>
+        <p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </p>
+        </div>
+    </div>
+</div>
+  </section>
+<!-- cart part 2 end -->
+<!-- service part start -->
+  <section class="lg:flex justify-evenly py-6 bg-sky-200 rounded-md ">
+    <div class="flex items-center gap-4 mb-2">
+        <img src="./box-tick.png" alt="Free Delivery">
+    <div class="text-xl font-bold">
+        <p>Free Delivery</p>
+        <p>on order above $200,00</p>
+    </div>
+    </div>
+
+    <div class="flex items-center gap-4 mb-2">
+        <img src="./Vector.png" alt="Vector">
+    <div class="text-xl font-bold">
+        <p>Best Quality</p>
+        <p>best quality in low price</p>
+    </div>
+    </div>
+
+    <div class="flex items-center gap-4 mb-2">
+        <img src="./GUARD.png" alt="GUARD">
+    <div class="text-xl font-bold">
+        <p>1 Year Warranty</p>
+        <p>Abailable Warranty</p>
+    </div>
+    </div>
+  </section>
+<!-- service part end -->
+<!-- comment part start -->
+    <section class="lg:flex justify-between mt-12 p-2">
+      <div class="border-2 border-gray-400 rounded-md p-2">
+        <div class="flex items-center gap-4">
+            <img src="./1.png" alt="">
+            <p class="font-bold">Savannah Nguyen</p>
+        </div>
+        <p class="border-2 border-gray-400 bg-sky-200 rounded-md p-2 mt-2">Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Saepe quos autem perspiciatis.</p>
+      </div>
+      <div class="border-2 border-gray-400 rounded-md p-2">
+        <div class="flex items-center gap-4">
+            <img src="./2.png" alt="">
+            <p class="font-bold">Nancy Smith</p>
+        </div>
+        <p class="border-2 border-gray-400 bg-sky-200 rounded-md p-2 mt-2">Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Saepe quos autem perspiciatis.</p>
+      </div>
+      <div class="border-2 border-gray-400 rounded-md p-2">
+        <div class="flex items-center gap-4">
+            <img src="./3.png" alt="">
+            <p class="font-bold">Esther Howard</p>
+        </div>
+        <p class="border-2 border-gray-400 bg-sky-200 rounded-md p-2 mt-2">Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Saepe quos autem perspiciatis.</p>
+      </div>
+    </section>
+      <p class="flex justify-center gap-4 mt-2">
+        <i class="fa-solid fa-circle"></i>
+        <i class="fa-regular fa-circle"></i>
+        <i class="fa-regular fa-circle"></i>
+      </p>
+<!-- comment part end -->
+<!-- sponsor part start -->
+      <section class="bg-sky-200 py-6 lg:flex justify-evenly mt-10">
+        <img src="./brand-1.png" alt="">
+        <img src="./brand-2.png" alt="">
+        <img src="./brand-3.png" alt="">
+        <img src="./brand-4.png" alt="">
+        <img src="./brand-5.png" alt="">
+      </section>
+<!-- sponsor part end -->
+<!-- latest news part start -->
+<h1 class="font-bold text-2xl mt-10 flex justify-center">Latest News</h1>
+  <section class="lg:flex justify-evenly mt-12 py-2 gap-4"> 
+  <div class="flex border-2 border-gray-400 rounded-md py-4 gap-4 mb-2 ">
+      <div>
+        <img src="./Blog-1.png" alt="">
+      </div>
+      <div>
+        <p class="border-2 border-gray-400 rounded-full inline p-2">07,June,2023</p> <br> <br>
+        <p class="font-bold">Who avoids a pain that produces?</p> <br>
+        <p class="text-sm">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Natus adipisci <br> vitae, odio voluptatem consectetur <br> </p> <br>
+        <p>By scacing tech</p>
+      </div>   
+</div>
+<div class="flex border-2 border-gray-400 rounded-md p-4 gap-4 mb-2">
+  <div>
+    <img src="./Blog-2.png" alt="">
+  </div>
+  <div>
+    <p class="border-2 border-gray-400 rounded-full inline p-2">07,June,2023</p> <br> <br>
+    <p class="font-bold">Who avoids a pain that produces?</p> <br>
+    <p class="text-sm">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Natus adipisci <br> vitae, odio voluptatem consectetur <br> </p> <br>
+    <p>By scacing tech</p>
+  </div>   
+</div>
+</section>
+<!-- latest news part end -->
+<!-- circle part start -->
+<p class="flex justify-center gap-4 mt-2 mb-6">
+  <i class="fa-solid fa-circle"></i>
+  <i class="fa-regular fa-circle"></i>
+  <i class="fa-regular fa-circle"></i>
+  <i class="fa-regular fa-circle"></i>
+  <i class="fa-regular fa-circle"></i>
+</p>
+<!-- circle part end -->
+<!-- footer part start -->
+<footer class="bg-sky-200 p-2 rounded">
+<section class="lg:flex mx-12 justify-evenly border-2 bg-white rounded-md p-2 items-center mt-10">
+<div>
+  <p class="text-xl font-bold text-blue-900	">Subscribe newsletter</p>
+</div>
+<div>
+  <button class="btn gap-8 bg-amber-400">
+    Email address
+    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376V479.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/></svg>
+  </button>
+</div>
+  <div class="flex items-center">
+    <div class="text-4xl mx-4">
+    <i class="fa-solid fa-headphones-simple"></i>
+    </div>
+    <div>
+      <p>Call us 24/7 : <br>
+        (+880) 16-3232-1717
+      </p>
+    </div>
+  </div>
+</section>
+<section class="lg:flex justify-between mt-10 p-8">
+  <div class="mb-4">
+  <p class="text-lg font-bold">Saif Hasan</p> <br> 
+  <p>64 st james bluevard <br>
+  hoswick , ze2 7zj</p> <br>
+  <hr>
+  <p class="text-xl">
+    <i class="fa-brands fa-google "></i>
+    <i class="fa-brands fa-square-facebook ml-4"></i>
+    <i class="fa-brands fa-whatsapp ml-4"></i>
+  </p>
+  </div>
+
+  <div class="mb-4">
+    <p class="font-bold">Find Product</p>
+    <li>Brownze arnod</li>
+    <li>Chronograph blue</li>
+    <li>Smart phones</li>
+    <li>Automatic watch</li>
+    <li>Hair straightners</li>
+  </div>
+
+<div class="mb-4">
+    <p class="font-bold">Get help</p>
+    <li>About Us</li>
+    <li>Contact Us</li>
+    <li>Return Policy</li>
+    <li>Privacy Policy</li>
+    <li>Payment Policy</li>
+  </div>
+
+<div class="mb-4">
+    <p class="font-bold">About Us</p>
+    <li>News</li>
+    <li>Service</li>
+    <li>Our Policy</li>
+    <li>Customer Care</li>
+    <li>FAQ</li>
+</div>
+</section>
+</footer>
+<!-- footer part end -->
+</main>
+</body>
+</html>
